@@ -1,0 +1,7 @@
+server
+    service (service.js) = tudo que é rega de negócio ou processamento
+    controller (controller.js) = intermediar a camada de apresentação e a camada de negocio
+    routes (routes.js) = camada de apresentação
+    server (routes.js) = responsável por criar o servidor (mas não instancia)
+    index (index.js) = instancia o servidor e expoe para a web (lado da infraestrutura)
+    config (config.js) = tudo que for estático do projeto
